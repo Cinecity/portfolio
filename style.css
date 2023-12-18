@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-me img{
+    width: 100%;
+    
+}
+
+.skills i {
+    font-size: 5rem;
+    color: aqua;
+}
+section{
+    margin-top: 20px;
+}
+.projects img{
+    max-width: 250px;
+}
