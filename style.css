@@ -1,3 +1,19 @@
+:root {
+    --bs-primary: #18b1f7; /* Sky Blue */
+    --bs-secondary: #ffffff; /* White */
+    --bs-tertiary: #000000;
+}
+
+.custom-button {
+    --bs-btn-bg: #ff0000; /* Red */
+}
+
+.card{
+    background-color: var(--bs-primary);
+}
+   
+   
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -20,4 +36,31 @@ section{
 }
 .projects img{
     max-width: 250px;
+}
+
+h1, section h1
+{
+    color: var(--bs-primary);
+    font-size: xx-large;
+
+}
+p{
+    color: var(--bs-tertiary);
+    font-size: large;
+
+}
+
+.card-text{
+    color: var(--bs-secondary);
+}
+
+
+
+.card{
+    max-width: 13em;
+    min-height: 10em;
+}
+
+nav{
+    padding: .5rem 2rem;
 }
